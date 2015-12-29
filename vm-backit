@@ -31,7 +31,7 @@ function _askdirectories() {
 
 function _directories() {
   if [[ ${directories} == "yes" ]]; then
-  DIR="vm-backit"
+  DIR="vm-backit-util"
     if [[ ! -d "$DIR" ]]; then DIR="$PWD"; fi
     . "$DIR/directory-backup.sh";
   fi
@@ -48,20 +48,20 @@ function _askdatabase() {
 
 function _database() {
   if [[ ${database} == "yes" ]]; then
-  DIR="vm-backit"
+  DIR="vm-backit-util"
     if [[ ! -d "$DIR" ]]; then DIR="$PWD"; fi
     . "$DIR/database-backup.sh";
   fi
 }
 
 function _package() {
-  DIR="vm-backit"
+  DIR="vm-backit-util"
     if [[ ! -d "$DIR" ]]; then DIR="$PWD"; fi
     . "$DIR/package-backups.sh";
 }
 
 function _clean() {
-  DIR="vm-backit"
+  DIR="vm-backit-util"
     if [[ ! -d "$DIR" ]]; then DIR="$PWD"; fi
     . "$DIR/backup-cleanup.sh";
     echo "${OK}"
@@ -69,7 +69,7 @@ function _clean() {
 
 clear
 
-DIR="vm-backit";
+DIR="vm-backit-util";
 # for directories
 cat -- "$DIR/directory-backup.sh";
 # for database

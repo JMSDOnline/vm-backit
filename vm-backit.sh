@@ -30,15 +30,15 @@ cat <<EOF
   necessary changes to ensure successful backups.
 
   ${underline}Directory Backup:${normal}
-  /root/vm-backit/directory-backup.sh
+  /root/vm-backit-util/directory-backup.sh
 
   ${underline}Database Backup:${normal}
-  /root/vm-backit/database-backup.sh
+  /root/vm-backit-util/database-backup.sh
 EOF
 
 # Create vm-backit & backup directory strucutre
-mkdir -p ~/vm-backit /backup/{directories,databases}
-cd ~/vm-backit
+mkdir -p ~/vm-backit-util /backup/{directories,databases}
+cd ~/vm-backit-util
 
 # Download the needed scripts for VM-Backit
 curl -LO https://raw.githubusercontent.com/JMSDOnline/vm-backit/master/directory-backup.sh >/dev/null 2>&1;

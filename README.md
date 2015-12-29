@@ -23,7 +23,9 @@ __VM-Backit__ - Installs scripts to help manage and automate server/site backups
   * Cleanup remaining individual archives
   * Simply configure and type '__vm-backit__' to backup important directories and databases - cron examples included.
 
-![VM-Backit](https://github.com/JMSDOnline/vstacklet/blob/master/images/vs-backup-utility-preview.png "VStacklets VS-Backup Utility")
+![VM-Backit intro](https://github.com/JMSDOnline/vm-backit/blob/master/images/vm-backit-intro.png "VM-Backit Backup Utility")
+
+![VM-Backit action preview](https://github.com/JMSDOnline/vm-backit/blob/master/images/vm-backit-action-preview.png "VM-Backit Backup Utility - action preview")
 
 Getting Started
 ----------------

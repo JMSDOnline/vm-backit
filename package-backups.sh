@@ -35,7 +35,7 @@ PACAfile="$PACHostname-$PACDay-$additional_code.tgz";
   tar -cpzf $PACDest$PACAfile $PACBfiles >>"${OUTTO}" 2>&1 &&
   cd $PACDest
   mv $PACHostname-$PACDay-$additional_code.tgz /backup &&
-  cd /root/vm-backit
+  cd ~/vm-backit-util
     echo -n "${OK}"
     echo
 
