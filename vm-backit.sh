@@ -37,8 +37,8 @@ cat <<EOF
 EOF
 
 # Create vm-backit & backup directory strucutre
-mkdir -p vm-backit /backup/{directories,databases}
-cd vm-backit
+mkdir -p ~/vm-backit /backup/{directories,databases}
+cd ~/vm-backit
 
 # Download the needed scripts for VM-Backit
 curl -LO https://raw.githubusercontent.com/JMSDOnline/vm-backit/master/directory-backup.sh >/dev/null 2>&1;
