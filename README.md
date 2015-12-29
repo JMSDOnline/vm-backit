@@ -6,7 +6,6 @@ This project has been forked and modified for single utility use from my LEMP ki
 
 Script Features
 --------
-
   * Simple to install and configure.
   * Script writes backup output to /root/vm-backit.log for additional observations.
   * Color Coding for emphasis on install processes.
@@ -14,7 +13,7 @@ Script Features
   * Cron job examples are included within the script.
 
 
- Meet the Script
+Script Functions
 --------
 
 __VM-Backit__ - Installs scripts to help manage and automate server/site backups 
