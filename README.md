@@ -1,4 +1,4 @@
-VM-Backit - A Simple and Efficient System Backup Utility
+VM-Backit - A Simple System Backup Utility
 ==========
 
 This project has been forked and modified for single utility use from my LEMP kit projects [VStacklet](https://jmsolodesigns.com/code-projects/vstacklet/varnish-lemp-stack) & [HStacklet](https://jmsolodesigns.com/code-projects/hstacklet/hhvm-lemp-stack).
@@ -6,6 +6,7 @@ This project has been forked and modified for single utility use from my LEMP ki
 
 Script Features
 --------
+
   * Simple to install and configure.
   * Script writes backup output to /root/vm-backit.log for additional observations.
   * Color Coding for emphasis on install processes.
@@ -15,6 +16,7 @@ Script Features
 
  Meet the Script
 --------
+
 __VM-Backit__ - Installs scripts to help manage and automate server/site backups 
   * Backup your files in key locations (ex: /srv/www /etc /root)
   * Backup your databases
@@ -28,6 +30,10 @@ Getting Started
 ----------------
 _You should read these scripts before running them so you know what they're
 doing._ Changes may be necessary to meet your needs.
+
+Files __requiring__ your attention __before__ running a backup are located in the __~/vm-backit__ directory.
+  * directory-backup.sh
+  * database-backup.sh
 
 ### VM-Backit - Installs needed files for running complete system backups:
 ```
